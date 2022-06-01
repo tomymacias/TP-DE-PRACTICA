@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Manejo de DOM</title>
+    <!-- DOM Modelo objetos del documento -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    <header>
+    </header>
+    <main>
+        <div id="primera-parte"><h1>El titular</h1>
+            <p>Este texto es <strong> negrita </strong></p>
+            <!-- p - "este texto es" - negrita -->
+        </div>
+        <div id="segunda-parte">
+            <p id="pConId">id</p>
+            <p class="pConClass">class</p>
+            <p tag="pConTag">tag</p>
+
+        </div>
+        <div>
+            <h1 id="titular">Web Titular</h1>
+            <input type="button" onclick="cambiartitular()" value="cambiar texto">
+        </div>
+        <div id="vacio">
+            <input type="button" onclick="haceraparecer()"
+            value="revelar informacion">
+
+        </div>
+        
+    </main>
+    <ul>
+        <li class="paises">ar</li>
+        <li class="paises">ur</li>
+        <li class="paises">cl</li>
+    </ul>
+    <input type="button" value="borrar pais"
+    onclick="borrarpais()">
+    <form action="">
+        <label for="">Nombre: </label>
+        <input type="text" id="nombre">
+        <br>
+        <label for="">Edad: </label>
+        <input type="number" id="edad">
+        <input type="button" value="Sumar edad" onclick="sumaredad()">
+        <br>
+        <input type="checkbox" name="bases" id="bases">
+        <label for="bases">Comprendio bases y condiciones</label>
+    </form>
+    <footer></footer>
     
-</body>
+</body> 
+<script>
+    console.log("soy interno")
+</script>
+<script src="main.js"></script>
 </html>
+<!-- document -->
+<!-- document.body -->
