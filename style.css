@@ -6,7 +6,7 @@ body {
     font-family: sans-serif;
 }
 .main img {
-    max-width: 80%;
+    max-width: 50%;
 
 }
 .logo {
@@ -80,6 +80,7 @@ body {
 }
 .banner{
     position: relative;
+    
 }
 .banner .contenedor{
     position: absolute;
@@ -87,6 +88,34 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
-    width: 100%;
-    color: black;
+    width: 25%;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 25%;
 }
+.info {
+    background: #212121;
+    color: white;
+    text-align: center;
+}
+.info img {
+    border-radius: 50%;
+    border: 7px solid #212121;
+}
+.info__txt {
+    text-align: justify;
+    padding: 15px;
+}
+.mapa {
+    background: #f0ede5;
+    padding: 15px;
+    text-align: center;
+}
+.mapa h3 {
+    font-size: 30px;
+}
+.mapa p {
+    text-align: justify;
+}
+
