@@ -74,12 +74,13 @@ body {
 .muestrate{
     left: 0;
 }
-.banner img{
+.banner video{
     width: 100%;
     
 }
 .banner{
     position: relative;
+    text-align: center;
     
 }
 .banner .contenedor{
@@ -92,7 +93,6 @@ body {
     color: white;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
-    border-radius: 25%;
 }
 .info {
     background: black;
@@ -149,42 +149,23 @@ body {
         justify-content: space-between;
     }
 }
-#texto_mapa {
+.texto_mapa {
     margin: 20px;
 }
-
-.cont-temporizador{
+.container{
+    width: 50%;
     display: flex;
-    justify-content: center;   
-    margin-top: 50px; 
+    justify-content: space-around;
+    margin: 0 auto;
 }
-  
-.cont-temporizador .bloque{
-    margin: 0px 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.big-number{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
-  
-.cont-temporizador .bloque div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(80, 80, 80);
-    box-shadow: 0px 0px 6px 2px #727272 inset;
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: bold;
-    width: 100px;
-    height: 70px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-  
-.cont-temporizador .bloque p{
-    font-size: 11px;
-    font-weight: bold;
-    color: #d6d6d6;
+#apertura {
+    margin-top: 30px;
 }
 
 
