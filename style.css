@@ -90,10 +90,6 @@ body {
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
 }
-.banner__titulo {
-  text-align: center;
-
-}
 .info {
   background: black;
   color: white;
@@ -133,7 +129,10 @@ body {
 }
 @media (min-width: 480px) {
   .contenedor .banner__titulo {
-    font-size: 30px;
+    font-size: 44px;
+  }
+  .contenedor .banner__txt {
+    font-size: 25px;
   }
   .main img {
     max-width: 90%;
@@ -144,15 +143,6 @@ body {
   .info .contenedor {
     display: flex;
     justify-content: space-between;
-  }
-  .container {
-    font-size: 10px;
-  }
-  .container .big-number {
-    font-size: 20px;
-  }
-  .contenedor h2 {
-    margin: 10px;
   }
 }
 .texto_mapa {
