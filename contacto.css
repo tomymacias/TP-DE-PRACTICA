@@ -1,183 +1,183 @@
 body {
-    background-color: #212121;
-    font-family: sans-serif;
+  background-color: #212121;
+  font-family: sans-serif;
 }
 .main img {
-    max-width: 50%;
-
+  max-width: 50%;
 }
 .logo {
-   width: 70px;
-   height: 70px;
-    
+  width: 70px;
+  height: 70px;
 }
 .contenedor {
-    width:100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 .header {
-    height: 80px;
-    background: #212121;
+  height: 80px;
+  background: #212121;
 }
 .header .contenedor {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
-.logo, .icon-bars {
-    margin: 5px;
-    color: white;
+.logo,
+.icon-bars {
+  margin: 5px;
+  color: white;
 }
 .icon-bars {
-    display: block;
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-    background: #212121;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 5px;
-    cursor: pointer;
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background: #212121;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .menu--item {
-    color: white;
+  color: white;
 }
 .nav {
-    position: absolute;
-    top: 85px;
-    left: -100%;
-    width: 100%;
-    z-index: 100;
-    transition: all 0.5s;
+  position: absolute;
+  top: 85px;
+  left: -100%;
+  width: 100%;
+  z-index: 100;
+  transition: all 0.5s;
 }
-.menu{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    height: 60px;
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 60px;
 }
 .menu__link {
-    display: block;
-    padding-left: 5px;
-    padding-top: 10px;
-    background: rgba(51, 51, 51, 0.9);
-    color: white;
-    height: 50px;
-    border-bottom: 1px solid white;
-    text-decoration: none;
+  display: block;
+  padding-left: 5px;
+  padding-top: 10px;
+  background: rgba(51, 51, 51, 0.9);
+  color: white;
+  height: 50px;
+  border-bottom: 1px solid white;
+  text-decoration: none;
 }
 .menu__link:hover {
-    background: white;
-    color: black;
+  background: white;
+  color: black;
 }
-.muestrate{
-    left: 0;
+.muestrate {
+  left: 0;
 }
-.banner img{
-    width: 100%;
-    
+.banner img {
+  width: 100%;
 }
-.banner{
-    position: relative;
-    
+.banner {
+  position: relative;
 }
-.banner .contenedor{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    text-align: center;
-    width: 25%;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 25%;
+.banner .contenedor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  width: 25%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 25%;
 }
 
 form {
-    width: 100%;
-    height: 650px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
 }
 h1 {
-    text-align: center;
-    margin: 10px 0;
+  text-align: center;
+  margin: 10px 0;
 }
 form .grupo {
-    position: relative;
-    margin: 45px 0;
+  position: relative;
+  margin: 45px 0;
 }
-input, textarea {
-    background: none;
-    color: black;
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
-    display: block;
-    width: 94%;
-    border: none;
-    border-bottom: 1px solid black;
-    resize: none;
+input,
+textarea {
+  background: none;
+  color: black;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 94%;
+  border: none;
+  border-bottom: 1px solid black;
+  resize: none;
 }
-input:focus,textarea:focus {
-    outline: none;
-    color: rgb(94, 93, 93);
-
+input:focus,
+textarea:focus {
+  outline: none;
+  color: rgb(94, 93, 93);
 }
-input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label {
-    position: absolute;
-    top: -14px;
-    font-size: 12px;
-    color: black;
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  position: absolute;
+  top: -14px;
+  font-size: 12px;
+  color: black;
 }
 label {
-    color: #212121;
-    font-size: 16px;
-    position: absolute;
-    left: 5px;
-    top: 10px;
-    transition: 0.3s ease all;
-    pointer-events: none;
+  color: #212121;
+  font-size: 16px;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  transition: 0.3s ease all;
+  pointer-events: none;
 }
 .barra {
-    position: relative;
-    display: block;
-    width: 100%;
+  position: relative;
+  display: block;
+  width: 100%;
 }
-input:focus~.barra::before,textarea:focus~.barra::before {
-    width: 100%;    
+input:focus ~ .barra::before,
+textarea:focus ~ .barra::before {
+  width: 100%;
 }
 .barra::before {
-    content: "";
-    height: 2px;
-    width: 0;
-    bottom: 0;
-    position: absolute;
-    background: black;
-    transition: 0.3s ease all;
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  background: black;
+  transition: 0.3s ease all;
 }
 button {
-    display: block;
-    width: 100px;
-    height: 40px;
-    border: none;
-    color: black;
-    border-radius: 4px;
-    font-size: 16px;
-    margin: 10px auto;
-    cursor: pointer;
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px auto;
+  cursor: pointer;
 }
 .footer {
-    background: #f0ede5;
-    color: black;
-    padding: 10px;
-    text-align: center;
-  }
-  .footer img {
-    width: 70px;
-    margin-right: 10px;
-    border: 5px solid #f0ede5;}
-
-
+  background: #f0ede5;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+.footer img {
+  width: 70px;
+  margin-right: 10px;
+  border: 5px solid #f0ede5;
+}
