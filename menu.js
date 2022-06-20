@@ -30,3 +30,4 @@ function countTimer() {
 countTimer();
 
 setInterval(countTimer, 1000);
+

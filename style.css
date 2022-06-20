@@ -86,7 +86,7 @@ body {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
-  width: 35%;
+  width: 100%;
   color: white;
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
@@ -129,16 +129,6 @@ body {
   border: 5px solid #f0ede5;
 }
 @media (min-width: 500px) {
-  .contenedor .banner__titulo {
-    font-size: 30px;
-    text-align: center;
-  }
-  .contenedor .banner__txt {
-    font-size: 25px;
-  }
-  .main img {
-    max-width: 90%;
-  }
   .info__columna {
     width: 50%;
   }
@@ -155,6 +145,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
+  align-items: center;
 }
 .big-number {
   font-size: 35px;
@@ -166,3 +157,11 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+.banner .contenedor h1 {
+  margin: 10px;
+}
+
+
+
+
+
